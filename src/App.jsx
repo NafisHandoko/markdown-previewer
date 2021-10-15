@@ -1,11 +1,14 @@
 import React from 'react';
 import './App.css';
+import Markdown from './Markdown/index';
 
 function App() {
   return (
-    <main>
-      React⚛️ + Vite⚡ + Replit🌀
-    </main>
+    <>
+      <div className="container">
+        <Markdown />
+      </div>
+    </>
   );
 }
 
