@@ -1,6 +1,8 @@
 .markdown{
   background-color: white;
-  border-radius: 15px;
+  border-radius: 10px;
   width: 95%;
   height: 90vh;
+  display: flex;
+  flex-direction: row;
 }

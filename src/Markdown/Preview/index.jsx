@@ -5,7 +5,7 @@ class Preview extends Component{
   render(){
     return(
       <div id="preview">
-        this is preview component
+        {this.props.output}
       </div>
     )
   }
