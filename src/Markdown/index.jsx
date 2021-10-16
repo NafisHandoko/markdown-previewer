@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import marked from 'marked';
+import { ScrollSync, ScrollSyncPane } from 'react-scroll-sync';
 import './index.css';
 import Editor from './Editor/index';
 import Preview from './Preview/index';
