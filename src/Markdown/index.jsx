@@ -22,10 +22,16 @@ class Markdown extends Component{
   }
   render(){
     return(
-      <div className="markdown">
-        <Editor input={this.state.input} handleChange={this.handleChange}/>
-        <Preview output={this.state.output}/>
-      </div>
+      <ScrollSync>
+        <div className="markdown">
+          <ScrollSyncPane>
+            <Editor input={this.state.input} handleChange={this.handleChange}/>
+          </ScrollSyncPane>
+          <ScrollSyncPane>
+            <Preview output={this.state.output}/>
+          </ScrollSyncPane>
+        </div>
+      </ScrollSync>
     )
   }
 }
