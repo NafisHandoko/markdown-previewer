@@ -16,7 +16,7 @@ class Markdown extends Component{
   handleChange(event){
     this.setState({
       input: event.target.value,
-      output: marked(event.target.value)
+      output: event.target.value
     })
   }
   render(){
