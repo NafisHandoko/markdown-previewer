@@ -4,8 +4,7 @@ import './index.css';
 class Editor extends Component{
   render(){
     return(
-      <textarea id="editor" onChange={this.props.handleChange}>
-        {this.props.input}
+      <textarea id="editor" onChange={this.props.handleChange} value={this.props.input}>
       </textarea>
     )
   }
