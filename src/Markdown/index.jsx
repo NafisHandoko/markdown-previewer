@@ -34,9 +34,11 @@ class Markdown extends Component{
           </div>
           <div className="preview">
             <h3>Preview</h3>
-            <ScrollSyncPane>
-              <Preview output={this.state.output}/>
-            </ScrollSyncPane>
+            <div className="box">
+              <ScrollSyncPane>
+                <Preview output={this.state.output}/>
+              </ScrollSyncPane>
+            </div>
           </div>
         </div>
       </ScrollSync>

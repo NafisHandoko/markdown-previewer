@@ -4,9 +4,7 @@
   overflow-y: scroll;
   margin: 5px;
   width: 100%;
-  border-radius: 15px;
-  height: 80%;
-  box-shadow: var(--boxshadow);
+  height: 100%;
 }
 
 #preview code{
@@ -19,4 +17,9 @@
 #preview table, th, td{
   border: 2px solid var(--colorLight);
   border-collapse: collapse;
+  padding: 5px;
+}
+
+#preview a{
+  color: rgb(66, 66, 255);
 }
