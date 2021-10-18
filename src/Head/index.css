@@ -1,0 +1,9 @@
+header{
+  background-color: var(--colorDark);
+  color: var(--colorLight);
+}
+
+header h1{
+  margin: 0;
+  padding: 20px;
+}

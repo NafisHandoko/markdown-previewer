@@ -24,12 +24,18 @@ class Markdown extends Component{
     return(
       <ScrollSync>
         <div className="markdown">
-          <ScrollSyncPane>
-            <Editor input={this.state.input} handleChange={this.handleChange}/>
-          </ScrollSyncPane>
-          <ScrollSyncPane>
-            <Preview output={this.state.output}/>
-          </ScrollSyncPane>
+          <div className="editor">
+            <h3>Editor</h3>
+            <ScrollSyncPane>
+              <Editor input={this.state.input} handleChange={this.handleChange}/>
+            </ScrollSyncPane>
+          </div>
+          <div className="preview">
+            <h3>Preview</h3>
+            <ScrollSyncPane>
+              <Preview output={this.state.output}/>
+            </ScrollSyncPane>
+          </div>
         </div>
       </ScrollSync>
     )

@@ -1,5 +1,11 @@
+:root{
+  --colorDark: #41454C;
+  --colorLight: white;
+}
+
 *{
   box-sizing: border-box;
+  color: var(--colorLight);
 }
 
 body {
@@ -9,8 +15,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: rgb(71,118,230);
-  background: linear-gradient(59deg, rgba(71,118,230,1) 0%, rgba(142,84,233,1) 100%); 
+  background-color: var(--colorDark);
 }
 
 code {
