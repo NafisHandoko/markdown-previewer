@@ -8,3 +8,15 @@
   height: 80%;
   box-shadow: var(--boxshadow);
 }
+
+#preview code{
+  background-color: var(--colorCode);
+  color: var(--colorLight);
+  padding: 3px;
+  border-radius: 10px;
+}
+
+#preview table, th, td{
+  border: 2px solid var(--colorLight);
+  border-collapse: collapse;
+}
