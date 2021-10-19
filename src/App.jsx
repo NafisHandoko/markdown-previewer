@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import Markdown from './Markdown/index';
-import Head from './Head/index';
+import Markdown from './components/Markdown/index';
+import Head from './components/Head/index';
 
 function App() {
   return (
