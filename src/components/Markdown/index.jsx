@@ -11,15 +11,13 @@ class Markdown extends Component{
   constructor(props){
     super(props)
     this.state = {
-      input: defState,
-      output: defState
+      data: defState,
     }
     this.handleChange = this.handleChange.bind(this);
   }
   handleChange(event){
     this.setState({
-      input: event.target.value,
-      output: event.target.value
+      data: event.target.value,
     })
   }
   render(){
@@ -29,14 +27,14 @@ class Markdown extends Component{
           <div className="editor">
             <h3>Editor</h3>
             <ScrollSyncPane>
-              <Editor input={this.state.input} handleChange={this.handleChange}/>
+              <Editor input={this.state.data} handleChange={this.handleChange}/>
             </ScrollSyncPane>
           </div>
           <div className="preview">
             <h3>Preview</h3>
             <div className="box">
               <ScrollSyncPane>
-                <Preview output={this.state.output}/>
+                <Preview output={this.state.data}/>
               </ScrollSyncPane>
             </div>
           </div>
