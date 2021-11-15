@@ -6,6 +6,7 @@ class Head extends Component{
     return(
       <header>
         <h1>Markdown Previewer</h1>
+        <a href="https://github.com/NafisHandoko/markdown-previewer" target="_blank">Repo</a>
       </header>
     )
   }

@@ -1,10 +1,29 @@
 header{
   background-color: var(--colorDark);
   color: var(--colorLight);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 header h1{
   margin: 0;
   padding: 20px;
   padding-left: 40px;
+}
+
+header a{
+  margin-left: auto;
+  margin-right: 40px;
+  background-color: var(--colorDark);
+  border: var(--colorLight) 2px solid;
+  border-radius: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  transition: all .15s ease-in;
+}
+
+header a:hover{
+  background-color: var(--colorLight);
+  color: var(--colorDark);
 }
