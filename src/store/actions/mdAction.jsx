@@ -1,8 +1,6 @@
-const mdAction = (data) => {
+export const mdEdit = (data) => {
   return {
-    type: 'EDIT_DATA';
-    data: data;
+    type: 'EDIT_DATA',
+    data: data
   }
 }
-
-export default mdAction;

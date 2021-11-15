@@ -1,4 +1,4 @@
 import {combineReducers} from 'redux';
 import mdReducer from './mdReducer';
 
-export default combineReducers({markdownReducer});
+export default combineReducers({mdReducer});
