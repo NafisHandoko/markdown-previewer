@@ -24,3 +24,16 @@
   padding: 6px 0px;
   box-shadow: var(--boxshadow);
 }
+
+@media (max-width: 768px) {
+  .markdown{
+    flex-direction: column;
+  }
+  .preview{
+    max-width: 100%;
+  }
+  .editor{
+    max-width: 100%;
+    min-height: 400px;
+  }
+}
