@@ -16,13 +16,13 @@
     <img src="https://design-style-guide.freecodecamp.org/downloads/fcc_primary_large.jpg" alt="Logo" width="300">
   </a>
 
-  <h3 align="center">Random Quote Machine</h3>
+  <h3 align="center">Markdown Previewer</h3>
 
   <p align="center">
     Markdown Previewer (freeCodeCamp Submission)
     <br />
     <br />
-    <a href="https://nafishandoko.github.io/random-quote/">View Demo</a>
+    <a href="https://react-mdpreviewer.netlify.app/">View Demo</a>
     ·
     <a href="https://github.com/NafisHandoko/markdown-previewer/issues">Report Bug or Request Feature</a>
   </p>
@@ -78,7 +78,7 @@ Here's a list of the technologies I used to build this project
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-You just need to open <a href="https://nafishandoko.github.io/random-quote/">this project demo</a>. After it loads properly, you can see a quote and its author that you can change by clicking on `New Quote` button. You can also share the quote on your twitter account by clicking the `twitter icon button`
+You just need to open <a href="https://react-mdpreviewer.netlify.app/">this project demo</a>. After it loads properly, you can start writing or editing existing markdown template on the `editor` textarea. And you can see the result on the `previewer` textarea right after the `editor` textarea.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
